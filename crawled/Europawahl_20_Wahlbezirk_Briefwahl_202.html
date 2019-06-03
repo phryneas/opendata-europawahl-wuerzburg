@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="de"><head><meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Europawahl - Europawahl 2019 in der Stadt W&uuml;rzburg - Wahlbezirk Briefwahl 202</title><meta http-equiv='X-UA-Compatible' content='IE=9'>
+<meta http-equiv='Content-Type' content='text/html;charset=utf-8'><meta http-equiv='expires' content='Mon, 26 Jul 1997 05:00:00 GMT'>
+<meta http-equiv='cache-control' content='no-cache, must-revalidate'>
+<meta http-equiv='pragma' content='no-cache'>
+<link rel="SHORTCUT ICON" href="img/favicon.png" type="image/x-icon">
+<link rel="icon" href="img/favicon.png" type="image/x-icon">
+<link type="image/x-icon" href="img/favicon.png"/>
+<script type="text/javascript" src="js/jquery.js"></script><link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"><script type="text/javascript" src="js/bootstrap.min.js"></script><script type="text/javascript" src="js/charts/highcharts.js"></script><script type="text/javascript" src="js/charts/highcharts-more.js"></script><script type="text/javascript" src="js/charts/modules/exporting.js"></script><script type="text/javascript" src="js/Highchart.language.js"></script><script type="text/javascript" src="js/charts/map.js"></script><script type="text/javascript" src="js/jquery.ellipsis.min.js"></script><link rel="stylesheet" type="text/css" href="css/main.css"><script type="text/javascript" src="js/main.js"></script></head><body><!-- behoerde='Stadt Würzburg'&termin='26.05.2019'&wahl='Europawahl'&favName='Europawahl in der Stadt Würzburg (26.05.2019) - Übersicht' -->
+<nav class="navbar navbar-default navbar-fixed-top"  role="navigation" ><div class="container" ><div class="navbar-header" ><a href="javascript:location.reload(true);"  class="navbar-toggle" ><i class="glyphicon glyphicon-refresh" ></i></a> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><i class="glyphicon glyphicon-list" ></i></button><div style="margin-right:5px;"  class="headerInfo" ><span class="title" ><a style="font-size:1.2em"  href="Europawahl_20_Gemeinde_Stadt_Wuerzburg.html" >Europawahl</a></span><span class="subtitle" > Stadt W&uuml;rzburg</span></div></div><div class="collapse navbar-collapse"  id="bs-example-navbar-collapse-1" ><ul class="nav navbar-nav" ><li><a href="index.html" >Start</a></li><li></li><li class="dropdown" ><a data-toggle="dropdown"  href="#"  class="dropdown-toggle" >26.05.2019 <span class="caret" ></span></a><ul class="dropdown-menu" ><li><a href="../../../09663000/index.html" >Termin &auml;ndern</a></li></ul></li><li class="dropdown" ><a data-toggle="dropdown"  href="#"  class="dropdown-toggle" >Stadt W&uuml;rzburg <span class="caret" ></span></a><ul class="dropdown-menu" ><li><a href="http://wahlen.votemanager.de/" >Beh&ouml;rde &auml;ndern</a></li><li class="divider" ></li><li><a href="http://www.wuerzburg.de"  target="_blank" >zur Homepage</a></li></ul></li></ul><ul class="nav navbar-nav navbar-right hidden-xs" ><li><a href="javascript:location.reload(true);" ><i class="glyphicon glyphicon-refresh" ></i></a></li></ul></div></div></nav><div class="container" ><p><div class="row" ><div class="col-md-9 col-xs-6" ></div><div class="col-md-3 col-xs-6" ><p><form  style="width: 100%" role="search" action='Wahllokaluebersicht.html' accept-charset='UTF-8'><div class="input-group"><input type="text" class="form-control" placeholder="Meine Stra&szlig;e" name="str"><span class="input-group-btn"> <button class="btn btn-default" type="submit"><i class='glyphicon glyphicon-home'></i></button></span></div></form></p></div></div>
+<div class="row" ><div class="col-md-12" ><div id="newsbox" ></div></div></div>
+</p><div class="navbar navbar-default" role="navigation">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand visible-xs" href="#">Ergebnis</a>
+</div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+<ul class="nav navbar-nav" ><li class="" ><a href="Europawahl_20_Gemeinde_Stadt_Wuerzburg.html" >Gesamtergebnis</a></li><li class="" ><a href="Europawahl_20_Uebersicht_ortst.html" >Stadtbezirke</a></li><li class="" ><a href="Europawahl_20_Uebersicht_stbz.html" >Wahlbezirke</a></li></ul>
+<ul class="nav navbar-nav" ></ul>
+
+<ul class="nav navbar-nav navbar-right" ><li class="dropdown" ><a data-toggle="dropdown"  href="#"  class="dropdown-toggle" >weitere <span class="caret" ></span></a><ul class="dropdown-menu" ><li><a href="Open-Data-Europawahl203.csv"  target="_blank" ><i class="glyphicon glyphicon-book" ></i> 'Open Data'-CSV: Gemeinde-Ergebnis</a></li><li><a href="Open-Data-Europawahl208.csv"  target="_blank" ><i class="glyphicon glyphicon-book" ></i> 'Open Data'-CSV: &Uuml;bersicht &uuml;ber Stadtbezirke</a></li><li><a href="Open-Data-Europawahl206.csv"  target="_blank" ><i class="glyphicon glyphicon-book" ></i> 'Open Data'-CSV: &Uuml;bersicht &uuml;ber Wahlbezirke</a></li></ul></li></ul>
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</div>
+
+<div class="row" ><div class="col-md-7" ><div id="ergebnisStatus"  class="alert alert-info"  style="display:none" ></div>
+<script type="text/javascript">
+$( document ).ready(function () {
+categoriesstbzgrafik1256 = ['CSU','SPD','GR\u00DCNE','AfD','FREIE W\u00C4HLER','FDP','DIE LINKE','\u00D6DP','Die PARTEI','Sonstige'],
+namestbzgrafik1256 = 'Ergebnisübersicht',
+datastbzgrafik1256 = [{name:'Christlich-Soziale Union in Bayern e.V.', color: '#646464', y: 23.35},{name:'Sozialdemokratische Partei Deutschlands', color: '#d60029', y: 9.50},{name:'B\u00DCNDNIS 90\/DIE GR\u00DCNEN', color: '#33cc00', y: 35.43},{name:'Alternative f\u00FCr Deutschland', color: '#6eb4a5', y: 3.70},{name:'FREIE W\u00C4HLER', color: '#646464', y: 3.54},{name:'Freie Demokratische Partei', color: '#fbee31', y: 4.83},{name:'DIE LINKE', color: '#d01d5c', y: 4.99},{name:'\u00D6kologisch-Demokratische Partei', color: '#ffa338', y: 3.22},{name:'Partei f\u00FCr Arbeit, Rechtsstaat, Tierschutz, Elitenf\u00F6rderung und basisdemokratische Initiative', color: '#7d7d7d', y: 4.99},{name:'Sonstige', color: '#acbee4', y: 6.43}];
+var chartstbzgrafik1256 = $('#stbzgrafik1256').highcharts({
+           legend: { enabled: false },
+            chart: { type: 'column',backgroundColor:null},
+title: { 
+   text: 'Stadt W\u00FCrzburg - Briefwahl 202'
+},
+subtitle: { 
+   text: 'Europawahl 26.05.2019'
+},
+
+            xAxis: {
+               title: {
+                   align: 'high',
+                   text: '26.05.2019 21:15 Uhr ',
+                   style: {
+                       cursor: 'default',
+                       fontWeight: 'bold',
+                       fontSize: '7pt'
+                   }
+               }
+
+               ,
+               categories: categoriesstbzgrafik1256,
+               labels: { 
+enabled: true,
+              style: {
+                 textOverflow: 'none'
+               }
+}
+            },
+            yAxis: {
+title: { text: null }
+            },
+            tooltip: {
+                enabled: false
+            },
+            series: [{
+                name: namestbzgrafik1256,
+                data: datastbzgrafik1256,
+                color: 'white',
+                dataLabels: {
+                    enabled: true,
+                       style: {
+fontWeight: 'normal',
+                }
+},
+                    overflow: 'none',
+                    crop: false
+            }],
+            exporting: {
+                enabled: true,
+                filename: 'Briefwahl 202',
+            },
+credits: {
+       floating: true,
+       text: 'ok-vote.de',
+       href: null,
+       position: {
+           align: 'right',
+           y: -2
+       },
+       style: {
+           cursor: 'default',
+           fontSize: '7pt'
+       }
+   },
+
+            plotOptions: {
+               series: {
+                  states: {
+                    hover: {
+                       enabled: false
+                      }
+                    }
+                },
+                 column: {
+                     cursor: 'pointer',
+                     point: {
+                         events: {
+                             click: function() {
+alert('Eine detaillierte Ansicht der Sonstigen ist nicht möglich, da die Anzahl der Parteien über der darstellbaren Menge liegt (12 Parteien).');
+                             }
+                         }
+                     },
+                     dataLabels: {
+                         overflow: 'none',
+                         crop: false,
+                         enabled: true,
+                         formatter: function() {
+                             return Highcharts.numberFormat(this.y, 2, ',', ' ');
+                         }
+                     }
+                 }
+            }
+        })
+        .highcharts(); // return chart
+function setChart(name, categories, data, color) {
+     chartstbzgrafik1256.xAxis[0].setCategories(categories, false);
+     chartstbzgrafik1256.series[0].remove(false);
+     chartstbzgrafik1256.addSeries({
+         name: name,
+         data: data,
+         color: color || 'white'
+     }, false);
+     chartstbzgrafik1256.redraw();
+}
+    });
+</script>
+
+<div class="modal fade"  id="SonstigeHinweis"  role="dialog"  aria-hidden="true" ></div>
+
+<div class="panel panel-default" ><div class="panel-body" ><div id="stbzgrafik1256"  class=""  style="min-width: 250px; height: 100%;" ></div></div></div>
+
+
+<div class="visible-xs" ></div>
+<div class="panel panel-default" ><div class="panel-heading" >Briefwahl 202</div><div class="panel-body" ><div><table  class="table table-striped"
+>
+<tr
+
+
+>
+
+<td>W&auml;hler/innen
+</td>
+<td align="right" >623
+</td>
+<td align="right" >
+</td>
+</tr>
+<tr
+
+
+>
+
+<td>ung&uuml;ltige Stimmen
+</td>
+<td align="right" >2
+</td>
+<td align="right" >
+</td>
+</tr>
+<tr
+
+
+>
+
+<td>g&uuml;ltige Stimmen
+</td>
+<td align="right" >621
+</td>
+<td align="right" >
+</td>
+</tr>
+
+</table>
+</div></div></div>
+
+</div><div class="col-md-5" ><div class="panel panel-default" ><div class="panel-body" ><table  class="table table-condensed"
+>
+<thead>
+<tr
+
+
+>
+
+<th style="width:1%" ></th>
+<th></th>
+<th><p class="text-right" >Anzahl</p></th>
+<th><p class="text-right" >Prozent</p></th>
+</tr>
+</thead>
+<tbody>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #646464;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Christlich-Soziale Union in Bayern e.V." >CSU</abbr></td>
+<td class="text-right" ><nobr>145</nobr></td>
+<td class="text-right" ><nobr>23,35 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #d60029;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Sozialdemokratische Partei Deutschlands" >SPD</abbr></td>
+<td class="text-right" ><nobr>59</nobr></td>
+<td class="text-right" ><nobr>9,50 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #33cc00;border:solid 1px #dadada" ></div></td>
+<td><abbr title="B&Uuml;NDNIS 90/DIE GR&Uuml;NEN" >GR&Uuml;NE</abbr></td>
+<td class="text-right" ><nobr>220</nobr></td>
+<td class="text-right" ><nobr>35,43 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #6eb4a5;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Alternative f&uuml;r Deutschland" >AfD</abbr></td>
+<td class="text-right" ><nobr>23</nobr></td>
+<td class="text-right" ><nobr>3,70 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #646464;border:solid 1px #dadada" ></div></td>
+<td>FREIE W&Auml;HLER</td>
+<td class="text-right" ><nobr>22</nobr></td>
+<td class="text-right" ><nobr>3,54 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #fbee31;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Freie Demokratische Partei" >FDP</abbr></td>
+<td class="text-right" ><nobr>30</nobr></td>
+<td class="text-right" ><nobr>4,83 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #d01d5c;border:solid 1px #dadada" ></div></td>
+<td>DIE LINKE</td>
+<td class="text-right" ><nobr>31</nobr></td>
+<td class="text-right" ><nobr>4,99 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #ffa338;border:solid 1px #dadada" ></div></td>
+<td><abbr title="&Ouml;kologisch-Demokratische Partei" >&Ouml;DP</abbr></td>
+<td class="text-right" ><nobr>20</nobr></td>
+<td class="text-right" ><nobr>3,22 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #003399;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Bayernpartei" >BP</abbr></td>
+<td class="text-right" ><nobr>1</nobr></td>
+<td class="text-right" ><nobr>0,16 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #ff8800;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Piratenpartei Deutschland" >PIRATEN</abbr></td>
+<td class="text-right" ><nobr>2</nobr></td>
+<td class="text-right" ><nobr>0,32 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #d2d2d2;border:solid 1px #dadada" ></div></td>
+<td><abbr title="PARTEI MENSCH UMWELT TIERSCHUTZ" >Tierschutzpartei</abbr></td>
+<td class="text-right" ><nobr>8</nobr></td>
+<td class="text-right" ><nobr>1,29 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #a14315;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Nationaldemokratische Partei Deutschlands" >NPD</abbr></td>
+<td class="text-right" ><nobr>0</nobr></td>
+<td class="text-right" ><nobr>0,00 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #7d7d7d;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Partei f&uuml;r Arbeit, Rechtsstaat, Tierschutz, Elitenf&ouml;rderung und basisdemokratische Initiative" >Die PARTEI</abbr></td>
+<td class="text-right" ><nobr>31</nobr></td>
+<td class="text-right" ><nobr>4,99 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #00ccff;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Familien-Partei Deutschlands" >FAMILIE</abbr></td>
+<td class="text-right" ><nobr>0</nobr></td>
+<td class="text-right" ><nobr>0,00 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #8b8378;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Ab jetzt ... Demokratie durch Volksabstimmung - Politik f&uuml;r die Menschen" >Volksabstimmung</abbr></td>
+<td class="text-right" ><nobr>1</nobr></td>
+<td class="text-right" ><nobr>0,16 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #ff0000;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Deutsche Kommunistische Partei" >DKP</abbr></td>
+<td class="text-right" ><nobr>1</nobr></td>
+<td class="text-right" ><nobr>0,16 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #ff0000;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Marxistisch-Leninistische Partei Deutschlands" >MLPD</abbr></td>
+<td class="text-right" ><nobr>0</nobr></td>
+<td class="text-right" ><nobr>0,00 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #ee4000;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Sozialistische Gleichheitspartei, Vierte Internationale" >SGP</abbr></td>
+<td class="text-right" ><nobr>1</nobr></td>
+<td class="text-right" ><nobr>0,16 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #a2cd5a;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Aktion Partei f&uuml;r Tierschutz &ndash; DAS ORIGINAL" >TIERSCHUTZ hier!</abbr></td>
+<td class="text-right" ><nobr>1</nobr></td>
+<td class="text-right" ><nobr>0,16 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #7ec0ee;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Allianz f&uuml;r Menschenrechte, Tier- und Naturschutz" >Tierschutzallianz</abbr></td>
+<td class="text-right" ><nobr>3</nobr></td>
+<td class="text-right" ><nobr>0,48 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #646464;border:solid 1px #dadada" ></div></td>
+<td><abbr title="B&uuml;ndnis C - Christen f&uuml;r Deutschland" >B&uuml;ndnis C</abbr></td>
+<td class="text-right" ><nobr>1</nobr></td>
+<td class="text-right" ><nobr>0,16 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #cd853f;border:solid 1px #dadada" ></div></td>
+<td><abbr title="B&uuml;ndnis f&uuml;r Innovation &amp; Gerechtigkeit" >BIG</abbr></td>
+<td class="text-right" ><nobr>0</nobr></td>
+<td class="text-right" ><nobr>0,00 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #19a9c2;border:solid 1px #dadada" ></div></td>
+<td><abbr title="B&uuml;ndnis Grundeinkommen - Die Grundeinkommenspartei" >BGE</abbr></td>
+<td class="text-right" ><nobr>2</nobr></td>
+<td class="text-right" ><nobr>0,32 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #ffc125;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Demokratie DIREKT!" >DIE DIREKTE!</abbr></td>
+<td class="text-right" ><nobr>0</nobr></td>
+<td class="text-right" ><nobr>0,00 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #cd3700;border:solid 1px #dadada" ></div></td>
+<td>Demokratie in Europa - DiEM25</td>
+<td class="text-right" ><nobr>7</nobr></td>
+<td class="text-right" ><nobr>1,13 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #264707;border:solid 1px #dadada" ></div></td>
+<td><abbr title="DER DRITTE WEG" >III. Weg</abbr></td>
+<td class="text-right" ><nobr>0</nobr></td>
+<td class="text-right" ><nobr>0,00 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #646464;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Die Grauen - F&uuml;r alle Generationen" >Die Grauen</abbr></td>
+<td class="text-right" ><nobr>0</nobr></td>
+<td class="text-right" ><nobr>0,00 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #541d1d;border:solid 1px #dadada" ></div></td>
+<td><abbr title="DIE RECHTE &ndash; Partei f&uuml;r Volksabstimmung, Souver&auml;nit&auml;t und Heimatschutz" >DIE RECHTE</abbr></td>
+<td class="text-right" ><nobr>0</nobr></td>
+<td class="text-right" ><nobr>0,00 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #9370db;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Die Violetten" >DIE VIOLETTEN</abbr></td>
+<td class="text-right" ><nobr>0</nobr></td>
+<td class="text-right" ><nobr>0,00 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #e0534e;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Europ&auml;ische Partei LIEBE" >LIEBE</abbr></td>
+<td class="text-right" ><nobr>1</nobr></td>
+<td class="text-right" ><nobr>0,16 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #4d5863;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Feministische Partei DIE FRAUEN" >DIE FRAUEN</abbr></td>
+<td class="text-right" ><nobr>0</nobr></td>
+<td class="text-right" ><nobr>0,00 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #ee30a7;border:solid 1px #dadada" ></div></td>
+<td>Graue Panther</td>
+<td class="text-right" ><nobr>0</nobr></td>
+<td class="text-right" ><nobr>0,00 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #f09c43;border:solid 1px #dadada" ></div></td>
+<td>LKR - Bernd Lucke und die Liberal-Konservativen Reformer</td>
+<td class="text-right" ><nobr>0</nobr></td>
+<td class="text-right" ><nobr>0,00 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #ffb073;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Menschliche Welt - f&uuml;r das Wohl und Gl&uuml;cklichsein aller" >MENSCHLICHE WELT</abbr></td>
+<td class="text-right" ><nobr>1</nobr></td>
+<td class="text-right" ><nobr>0,16 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #53868b;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Neue Liberale &ndash; Die Sozialliberalen" >NL</abbr></td>
+<td class="text-right" ><nobr>0</nobr></td>
+<td class="text-right" ><nobr>0,00 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #d9c91f;border:solid 1px #dadada" ></div></td>
+<td><abbr title="&Ouml;kologische Linke" >&Ouml;koLinX</abbr></td>
+<td class="text-right" ><nobr>1</nobr></td>
+<td class="text-right" ><nobr>0,16 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #266282;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Partei der Humanisten" >Die Humanisten</abbr></td>
+<td class="text-right" ><nobr>0</nobr></td>
+<td class="text-right" ><nobr>0,00 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #3f8f1f;border:solid 1px #dadada" ></div></td>
+<td><abbr title="PARTEI F&Uuml;R DIE TIERE DEUTSCHLAND" >PARTEI F&Uuml;R DIE TIERE</abbr></td>
+<td class="text-right" ><nobr>0</nobr></td>
+<td class="text-right" ><nobr>0,00 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #646464;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Partei f&uuml;r Gesundheitsforschung" >Gesundheitsforschung</abbr></td>
+<td class="text-right" ><nobr>1</nobr></td>
+<td class="text-right" ><nobr>0,16 %</nobr></td>
+</tr>
+<tr
+
+
+>
+
+<td style="vertical-align:middle" ><div style="width:10px;height:10px;background-color: #6c507d;border:solid 1px #dadada" ></div></td>
+<td><abbr title="Volt Deutschland" >Volt</abbr></td>
+<td class="text-right" ><nobr>8</nobr></td>
+<td class="text-right" ><nobr>1,29 %</nobr></td>
+</tr>
+</tbody>
+
+</table>
+</div></div>
+<div class="panel panel-default" ><div class="panel-heading" >Wahlbeteiligung</div><div class="panel-body" >Die Wahlbeteiligung kann nicht angezeigt werden. Es handelt sich um einen Briefwahlbezirk, oder es sind bis jetzt nur Briefwahlergebnisse eingegangen.</div></div>
+<h4 style="border-bottom: solid 1px rgb(221, 221, 221);font-weight:300;padding-bottom:4px;padding-left:6px" >Stadtbezirk</h4>
+<div class="row" ></div>
+<div class="col-sm-12"  style="padding: 4px;text-align:left" ><div class="d-inline-block text-truncate" ><a title="ALTSTADT"  href="Europawahl_20_Stadtbezirk_ALTSTADT.html"  class="btn btn-default btn-sm btn-block text-nowrap"  style="display:inline-block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis" >ALTSTADT</a></div></div>
+
+
+
+
+
+
+</div><script type='text/javascript'>$(document).ready(function(){ergebnisStatus(20)});
+</script></div>
+<hr><footer><p>
+<!--Stand: 26.05.2019 21:15 Uhr -->
+<a href="https://www.akdb.de/loesungen/okbuergerservice/okvote/"  target="_blank" >ok-vote.de</a>
+
+</p></footer>
+</div><script type='text/javascript'>$(document).ready(function(){newsbox(20)});
+</script></body></html>
